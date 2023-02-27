@@ -1,0 +1,103 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    width: 100%;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+  }
+  nav ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #fff;
+  }
+  .logo{
+    width: 70px;
+  }
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #444;
+  }
+
+   /*footer styling*/
+
+.foot-container{
+  background-color: black;
+display: flex;
+  justify-content: center;
+  padding: 40px 100px;
+text-align: center;
+margin: 15px 19px;
+}
+h3{
+color: tomato;
+font-size: 30px;
+}
+.foot ul li{
+list-style: none;
+font-size: 17px;
+padding: 20px;
+}
+.foot ul li a{
+text-decoration: none;
+color: #fff;
+
+
+}
+
+
+.blue{
+  color: #fff;
+  text-align: center;
+  margin-bottom: 7px;
+background: black;
+padding: 30px;
+}
